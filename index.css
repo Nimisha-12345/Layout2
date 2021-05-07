@@ -15,9 +15,9 @@ body {
 }
 .label {
   text-align: center;
-  margin-top: 15px;
-  font-size: 20px;
-  font-weight: 100;
+    margin-top: 17px;
+    font-size: 24px;
+    font-family: -webkit-pictograph;
 }
 .lab {
   text-align: center;
@@ -45,7 +45,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 6px;
   margin-bottom: 20px;
 }
 
@@ -62,26 +62,29 @@ body {
   margin-top: 20px;
 }
 .btn-primary {
-  background: #5cafdf;
+  background: #247cb0;
   color: #fff;
   display: block;
 }
 .btn-primary1 {
-  background: #5cafdf;
+  background: #247cb0;
   color: #fff;
 }
 .btn-secondary {
-  border: 1px solid black;
+  border: 1px solid #d3c9c9;
   display: block;
+  color: #7e6f6f;
 }
 .para {
   margin-bottom: 20px;
-  margin-top: 20px;
-  font-family: fangsong;
-
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-top: 20px;
 }
 .foot {
   margin-top: 40px;
+  word-break: break-all;
 }
 .card {
   transition: 0.3s;
@@ -106,28 +109,40 @@ body {
   font-size: 40px;
   font-weight: 400;
 }
+.h1{
+  font-size: 28px;
+    font-family: -webkit-pictograph;
+}
 @media (min-width: 100px) {
   .sub-heading {
     padding: 50px;
-    border-radius: 3px;
+    border-radius: 4px;
   }
   .btn {
-    padding: 7px 5px;
+    padding: 5px 6px;
   }
   .btn-primary1 {
     padding: 9px 10px;
     font-weight: 600;
   }
-  .btn-primary{
-    padding: 9px 10px;
+  .btn-primary {
+    padding: 6px 11px;
+    font-weight: 600;
   }
   .head {
-    font-size: 60px;
+    font-size: 54px;
+    font-family: auto;
     font-weight: 500;
   }
-  .bottom {
-    border-bottom: 2px solid lightgray;
-    margin-top: 32px;
+  
+  .lab{
+    text-align: center;
+    margin-top: 11px;
+    margin-left: 33px;
+    margin-right: 28px;
+    font-size: 15px;
+    color: #666a6a;
+    font-family: initial;
   }
 }
 @media (min-width: 400px) {
@@ -139,7 +154,7 @@ body {
     padding-right: 20px;
   }
   .nav-items {
-    height: 45px;
+    height: 7px;
     display: flex;
     align-items: center;
   }
@@ -148,8 +163,12 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
   }
-  .foot p{
+  .foot p {
     margin-bottom: 20px;
+  }
+  .bottom {
+    border-bottom: 2px solid lightgray;
+    margin-top: 32px;
   }
 }
 @media (min-width: 900px) {
