@@ -4,99 +4,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
     <title>Layout2</title>
-   
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-      <div class="nav-items">
-        <a href="#home" class="active" style="font-size: 19px; font-weight: 200;">Layout3</a>
-        <a href="#news" style="font-size: 15px">Services</a>
-        <a href="#contact" style="font-size: 15px">Contact</a>
-        <a href="#about" style="font-size: 15px">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+    <div class="top-nav">
+      <div class="container nav-items">
+        <ul class="list">
+          <li class="list-items" style="font-size: 22px"><a href="javascript:void(0);">Layout2</a></li>
+          <li class="list-items" style="margin-top: 3px"><a href="javascript:void(0);">About</a></li>
+          <li class="list-items" style="margin-top: 3px"><a href="javascript:void(0);">services</a></li>
+          <li class="list-items" style="margin-top: 3px"><a href="javascript:void(0);">contact</a></li>
+        </ul>
       </div>
     </div>
 
-    <div class="heading">
-      <div class="sub-heading">
-        <h2>Sample Heading</h2>
-        <p>
+    <div class="container heading">
+      <div class=" sub-heading">
+        <h2 class="head wb-ba">Sample Heading</h2>
+        <p class="para wb-ba">
           Lorem Ipsum est simplement du faux texte employé dans la composition
           et la mise en page avant impression. Le Lorem Ipsum est le faux texte
           standard de l'imprimerie depuis les années 1500, quand un imprimeur
           anonyme assembla ensemble des morceaux de texte pour réaliser un livre
           spécimen de polices de texte
         </p>
-        <button class="btn">Call to action!</button>
+        <a href="javascript:void(0);" class="btn btn-primary1">call to action!</a>
       </div>
     </div>
-    <div class="border"></div>
-    <div class="features">
-      <h2>Latest Features</h2>
+    <div class="container space"> 
+      <hr>
     </div>
+    
+    <div class="container cards-section">
+      <h2 class="wb-ba">Latest Features</h2>
     <div class="cards">
-      <div class="sub-cards">
-        <div class="image">
-          <img src="layout.png" />
-        </div>
-        <div class="heading-name">
-          <h2>Feature Lable</h2>
-          <p>Lorem Ipsum est simplement du faux texte employé dans la mise en page avant impression.</p>
-          <div class="btn-section">
-          <button class="btn1">Buy Now!</button>
-          <button class="btn2">More info</button>
+      <div class="card">
+          <img src="layout.png">
+          <div class="card-desc">
+            <h4 class="label wb-ba"><b>Features Label</b></h4>
+            <p class="lab wb-ba">Lorem Ipsum est simplement du faux texte employé dans la mise en
+              page avant impression.</p>
+          
+          <div class="cards-action">
+            <a href="javascript:void(0);" class="btn btn-primary">Buy Now</a>
+            <a href="javascript:void(0);" class="btn btn-secondary">More info</a>
           </div>
-        </div>
-      </div>
-      <div class="sub-cards">
-        <div class="image">
-          <img src="layout.png" />
-        </div>
-        <div class="heading-name">
-          <h2>Feature Lable</h2>
-          <p>Lorem Ipsum est simplement du faux texte employé dans la mise en page avant impression.</p>
-          <div class="btn-section">
-          <button class="btn1">Buy Now!</button>
-          <button class="btn2">More info</button>
           </div>
-        </div>
-      </div>
-      <div class="sub-cards">
-        <div class="image">
-          <img src="layout.png" />
-        </div>
-        <div class="heading-name">
-          <h2>Feature Lable</h2>
-          <p>Lorem Ipsum est simplement du faux texte employé dans la mise en page avant impression.</p>
-          <div class="btn-section">
-          <button class="btn1">Buy Now!</button>
-          <button class="btn2">More info</button>
           </div>
-        </div>
-      </div>
-      <div class="sub-cards">
-        <div class="image">
-          <img src="layout.png" />
-        </div>
-        <div class="heading-name">
-          <h2>Feature Lable</h2>
-          <p>Lorem Ipsum est simplement du faux texte employé dans la mise en page avant impression.</p>
-          <div class="btn-section">
-          <button class="btn1">Buy Now!</button>
-          <button class="btn2">More info</button>
+          <div class="card">
+            <img src="layout.png">
+            <div class="card-desc">
+              <h4 class="label wb-ba"><b>Features Label</b></h4>
+              <p class="lab wb-ba">Lorem Ipsum est simplement du faux texte employé dans la mise en
+                page avant impression.</p>
+            
+            <div class="cards-action">
+              <a href="javascript:void(0);" class="btn btn-primary">Buy Now</a>
+              <a href="javascript:void(0);" class="btn btn-secondary">More info</a>
+            </div>
+            </div>
+            </div>
+            <div class="card">
+              <img src="layout.png">
+              <div class="card-desc">
+                <h4 class="label wb-ba"><b>Features Label</b></h4>
+                <p class="lab wb-ba">Lorem Ipsum est simplement du faux texte employé dans la mise en
+                  page avant impression.</p>
+              
+              <div class="cards-action">
+                <a href="javascript:void(0);" class="btn btn-primary">Buy Now</a>
+                <a href="javascript:void(0);" class="btn btn-secondary">More info</a>
+              </div>
+              </div>
+              </div>
+              <div class="card">
+                <img src="layout.png">
+                <div class="card-desc">
+                  <h4 class="label wb-ba"><b>Features Label</b></h4>
+                  <p class="lab wb-ba">Lorem Ipsum est simplement du faux texte employé dans la mise en
+                    page avant impression.</p>
+                
+                <div class="cards-action">
+                  <a href="javascript:void(0);" class="btn btn-primary">Buy Now</a>
+                  <a href="javascript:void(0);" class="btn btn-secondary">More info</a>
+                </div>
+                </div>
+                </div>
           </div>
-        </div>
-      </div>
+          </div>
+          
+            
+    <div class=" container bottom">
+      
     </div>
-     <div class="bottom"></div>
-    <footer class="foot">
+    <footer class="container foot">
       <p>copyright @ your website</p>
     </footer>
+    </div>
   </body>
 </html>
